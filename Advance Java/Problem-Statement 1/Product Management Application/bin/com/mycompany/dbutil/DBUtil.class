@@ -1,0 +1,9 @@
+Êþº¾   = -  com/mycompany/dbutil/DBUtil  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/mycompany/dbutil/DBUtil; dbConn ()Ljava/sql/Connection; 
+Exceptions   java/lang/ClassNotFoundException  java/sql/SQLException  com.mysql.cj.jdbc.Driver
+    java/lang/Class   forName %(Ljava/lang/String;)Ljava/lang/Class;  %jdbc:mysql://localhost:3306/Productdb   root " Swati@12345##
+ $ & % java/sql/DriverManager ' ( getConnection M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection; con Ljava/sql/Connection; 
+SourceFile DBUtil.java !               /     *· ±    
+                    	              D     ¸ W!¸ #K*°    
+       
+            ) *    +    ,
